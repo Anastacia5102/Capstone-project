@@ -23,3 +23,23 @@ body {
   background-color: yellowgreen;
   color: darkcyan;
 }
+/*PART TWO*/
+.myslides{
+ height: 500px;
+ width: 100%;
+}
+img{
+  width: 200px;
+}
+
+h1{
+  text-align: center;
+  color: green;
+  font-wweight: bolder;
+}
+/*PART THREE*/
+p{
+  text-align: center;
+  color: deeppink;
+  
+}
