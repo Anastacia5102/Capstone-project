@@ -24,74 +24,80 @@ body {
   color: darkcyan;
 }
 /*PART TWO*/
-.myslides{
- height: 500px;
- width: 100%;
+.myslides {
+  height: 500px;
+  width: 100%;
 }
-img{
+img {
   width: 200px;
 }
 
-h1{
+h1 {
   text-align: center;
   color: green;
   font-weight: bolder;
 }
 /*PART THREE*/
-p{
+p {
   text-align: center;
   color: deeppink;
-  font-size:20px;
+  font-size: 20px;
   font-weight: bolder;
 }
-.column{
+.column {
   float: left;
-  weight: 30%;
+  width: 30%;
   height: 30%;
 }
-.ping3{
+.pimg3 {
   position: relative;
   opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("https://l.ibb.co/hclf0cp/dowload.jpg");
+  background-image: url("https://i.ibb.co/hK1f06p/download.jpg");
   min-height: 400px;
 }
-.section{
+.section {
   text-align: center;
   padding: 50px 80px;
 }
-.section-light{
+.section-light {
   background-color: #f4f4f4;
   color: #666;
 }
-.section-dark{
+.section-dark {
   background-color: #282e34;
   color: #ddd;
 }
-.ptext{
+.ptext {
   position: absolute;
   top: 50%;
-  wwidth:100%;
+  width: 100%;
   text-align: center;
   color: #000;
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-.ptext .border{
+.ptext .border {
   background-color: #111;
   color: #fff;
   padding: 20px;
 }
-@media(max-width: 568px){
-  .ping3{
+@media (max-width: 568px) {
+  .pimg3 {
     background-attachment: scroll;
   }
 }
 /*PART FOUR*/
-footer{
+footer {
   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
